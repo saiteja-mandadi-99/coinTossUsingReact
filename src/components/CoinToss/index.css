@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+}
+.tossContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  align-items: center;
+  padding: 10px;
+  min-height: 60vh;
+  min-width: 40%;
+}
+.heading {
+  font-size: 35px;
+  color: #e2a139;
+  font-family: Roboto;
+  padding: 3px;
+  padding-bottom: 0px;
+}
+.tossDesc {
+  color: #334155;
+  font-family: 28px;
+}
+.img {
+  height: 250px;
+  width: 250px;
+  padding: 5px;
+}
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+  width: 140px;
+  margin-bottom: 5px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: row;
+}
+.detailsEle {
+  margin: 8px;
+  font-size: 20px;
+}
